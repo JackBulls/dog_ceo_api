@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="home">
       <h1>Bienvenu sur Dog CEO</h1>
-      <p>Profitez de parcourir des photos de chiens au hasard et recherchez votre race préférée.</p>
+      <p>Profitez de parcourir des photos de chiens au hasard ou recherchez votre race préférée.</p>
       {randomDog && <img src={randomDog} alt="Random Dog" className="banner-image" />}
     </div>
   );

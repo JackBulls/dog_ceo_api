@@ -1,0 +1,60 @@
+/* Navbar.css */
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar .lc {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 17px; 
+    left: 12%;
+  }
+  
+  .navbar a {
+    position: relative;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px 0;
+  }
+
+  .navbar ul {
+    float: right;
+    margin-right: 25px;
+  }
+
+  .navbar ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+  }
+
+  .navbar ul li a:before {
+    position: absolute;
+    content: '';
+    left: 0; 
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+  }
+
+  .navbar ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  /* .navbar a:hover {
+    background-color: #555;
+  } */
+  

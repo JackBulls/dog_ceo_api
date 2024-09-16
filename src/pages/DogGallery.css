@@ -1,0 +1,12 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste les colonnes */
+    gap: 20px; /* Espacement entre les images */
+}
+
+.gallery img {
+    width: 100%; /* La largeur prend toute la taille du conteneur */
+    height: 200px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Couvre la zone tout en gardant les proportions */
+    border-radius: 10px; /* Optionnel : pour arrondir les bords */
+}

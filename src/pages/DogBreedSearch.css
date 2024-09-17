@@ -5,14 +5,18 @@
 
 .breed-search {
     background-color: #333; 
-    height: 100vh;
+    height: 200vh;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto; /* Center the container itself */
+    max-width: 100%; /* Limit the container width */
 }
 
 .recherche {
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 
 label {
@@ -43,4 +47,20 @@ label {
 .search-button:hover {
     transition: .5s;
     background-color:aliceblue;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    /* font-size: 30px; */
+}
+
+.breed-image {
+    margin: 20px 35px;
+    width: 300px; /* La largeur prend toute la taille du conteneur */
+    height: 300px; 
+    object-fit: cover; 
+    /* Couvre la zone tout en gardant les proportions */
+    border-radius: 10px; /* Optionnel : pour arrondir les bords */
+    border: 2px solid white;
 }

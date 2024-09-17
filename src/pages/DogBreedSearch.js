@@ -18,7 +18,7 @@ const DogBreedSearch = () => {
       const data = await response.json(); // Convertir la réponse en JSON
 
       if (data.status === 'error') {
-        setError('Race non trouvé, vérifiez votre input.'); // Vérifier l'erreur
+        setError('Race non trouvé, réessayez.'); // Vérifier l'erreur
         setBreedImages([]);
       } else {
         setError('');
@@ -32,6 +32,7 @@ const DogBreedSearch = () => {
   return (
     <div className="breed-search">
       <h1>Recherche de chiens par race</h1>
+      <h2>Descendez vers le bas pour lancer votre recherche.</h2>
       <div className="recherche">
         <label>
         {/* Champ de saisie pour entrer une race */}

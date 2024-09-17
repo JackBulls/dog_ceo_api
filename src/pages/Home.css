@@ -1,16 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
 .home {
     min-height: 100vh;
-    display: flex;      
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: #333; 
+}
+
+.home .h1-p {
+    float: left; 
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -21,8 +28,16 @@ p {
     color: white;
 }
 
-/* .home .banner-image {
+.home .banner-image {
     float: right;
+    width: 400px; /* La largeur prend toute la taille du conteneur */
+    height: 400px; 
     margin-right: 20px;
-} */
+    object-fit: cover; 
+    display: block;
+    border-radius: 15px;
+    border: 5px solid white;
+}
+
+
 

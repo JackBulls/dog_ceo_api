@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.breed-search {
+    background-color: #333; 
+    height: 100vh;
+}
+
+.recherche {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+label {
+    position: relative;
+}
+
+.breed-input {
+    border: none;
+    width: 460px;
+    height: 50px;
+    padding: 0 16px;
+}
+
+.search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: bisque;
+    padding: 0 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    transition: .5s;
+    background-color:aliceblue;
+}

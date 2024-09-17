@@ -9,12 +9,11 @@
     justify-content: space-around;
   }
 
-  .navbar .lc {
+  .lc {
     width: 100px;
     height: 100px;
-    position: absolute;
-    top: 17px; 
-    left: 12%;
+    position: relative;
+    float: left;
   }
   
   .navbar a {

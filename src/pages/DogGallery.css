@@ -1,12 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste les colonnes */
-    gap: 20px; /* Espacement entre les images */
+    background-color: #333; 
+    justify-content: center; /* Center the grid horizontally */
+    margin: 0 auto; /* Center the container itself */
+    max-width: 100%; /* Limit the container width */
 }
 
 .gallery img {
-    width: 100%; /* La largeur prend toute la taille du conteneur */
-    height: 200px; /* Hauteur fixe pour toutes les images */
-    object-fit: cover; /* Couvre la zone tout en gardant les proportions */
+    margin: 10px 10px;
+    width: 300px; /* La largeur prend toute la taille du conteneur */
+    height: 300px; 
+    object-fit: cover; 
+    /* Couvre la zone tout en gardant les proportions */
     border-radius: 10px; /* Optionnel : pour arrondir les bords */
+    border: 2px solid white;
+}
+
+h1 {
+    text-align: center;
 }

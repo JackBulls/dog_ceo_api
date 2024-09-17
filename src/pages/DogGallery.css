@@ -12,7 +12,7 @@
 }
 
 .gallery img {
-    margin: 10px 10px;
+    margin: 20px 35px;
     width: 300px; /* La largeur prend toute la taille du conteneur */
     height: 300px; 
     object-fit: cover; 
